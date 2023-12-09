@@ -1,5 +1,5 @@
 // Returns an array of size n with the values of the Fibonacci sequence, the length of the array,
-// and the value of the last element.
+// and the value of the last element
 fn fib(n: usize) -> (Array<felt252>, felt252, usize) {
     let mut arr = array![];
     arr.append(1);
